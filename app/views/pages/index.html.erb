@@ -1,0 +1,208 @@
+<div class="container">
+  <!-- begin nav -->
+  <header>
+    <div class="inner">
+      <nav id="nav" class="navbar navbar-default navbar-static-top">
+        <div class="container">
+          <div class="navbar-header">
+            <button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+
+          </div>
+          <div id="navbarCollapse" class="collapse navbar-collapse">
+            <ul class="nav navbar-nav">
+              <li class="page-scroll">
+                <a href="#about">About</a>
+              </li>
+              <li class="page-scroll">
+                <a href="#portfolio">Projects</a>
+              </li>
+              <li class="page-scroll">
+                <a href="#contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- end nav -->
+
+      <!-- Logo and Title -->
+      <section id="top" class="page-title">
+        <img src="<%= asset_path 'wf-logo-small-white.png' %>" class="img-responsive floating" , id="startchange" alt="AR logo">
+        <h2>ピラス・リカルド</h2>
+        <h1>Ricardo Piras</h1>
+        <h4>Creative Web Development</h4>
+      </section>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main class="content">
+
+    <!-- Portfolio Grid Section -->
+    <section id="portfolio" class="projects">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2 class="title">Projects 🖼️</h2>
+
+          </div>
+        </div>
+
+        <div class="row">
+
+          <!-- Destination Matcher app -->
+          <div class="col-sm-4 portfolio-item">
+            <div class="item-wrap">
+              <div class="caption">
+                <div class="caption-content">
+                  <p>Destination Matcher</p>
+                  <br>
+                  <a href="www.destination-matcher.com/" class="portfolio-link">
+                    <i class="fa fa-search-plus fa-3x"></i>
+                  </a>
+                </div>
+              </div>
+              <img src="<%= asset_path 'virtual-gallery-min.png' %>" class="img-responsive" alt="Virtual Gallery">
+            </div>
+          </div>
+
+
+          <!-- WeJam app -->
+          <div class="col-sm-4 portfolio-item">
+
+            <div class="item-wrap">
+              <div class="caption">
+                <div class="caption-content">
+                  <p>WeJam</p>
+                  <br>
+                  <a href="https://wejam.herokuapp.com/" class="portfolio-link">
+                    <i class="fa fa-search-plus fa-3x"></i>
+                  </a>
+                </div>
+              </div>
+              <%#= link_to image_tag('single-page-portfolio-min.png'), class: 'img-responsive', alt: 'Single Page Portfolio' %>
+              <img src="<%= asset_path 'secret-source-min.png' %>" class="img-responsive" alt="Secret Source">
+            </div>
+          </div>
+
+          <!-- Cocktail Aspirante app-->
+          <div class="col-sm-4 portfolio-item">
+            <%# link_to 'http://thawing-fortress-18548.herokuapp.com/', class: 'portfolio-link' %>
+            <div class="item-wrap">
+              <div class="caption">
+                <div class="caption-content">
+                  <p>Cocktail Aspirante</p>
+                  <br>
+                  <a href="guarded-anchorage-92291.herokuapp.com" class="portfolio-link">
+                    <i class="fa fa-search-plus fa-3x"></i>
+                  </a>
+                </div>
+              </div>
+              <%#= link_to image_tag('devmatch-min.png'), class: 'img-responsive', alt: 'DevMatch' %>
+              <img src="<%= asset_path 'devmatch-min.png' %>" class="img-responsive" alt="DevMatch">
+            </div>
+          </div>
+
+        </div>
+
+</section>
+
+<section id="about" class="intro">
+  <div class="intro-inner">
+    <div class="row">
+      <div class="col-md-12">
+        <h2 class="title">About 🙋🏻‍♂</h2>
+
+      </div>
+      <div class="row intro-cards">
+        <div class="col-xs-12 col-sm-6">
+          <img src="<%= asset_path 'portrait-min.png' %>" class="img-responsive portrait" alt="Single Page Portfolio">
+
+        </div>
+        <div class="col-xs-12 col-sm-6">
+
+          <div class="flip-container">
+
+            <div class="flipper">
+
+              <div class="front">
+                <p>
+                  Hello!
+                  <br/>
+                  My name is Ricardo - I'm an avid programmer with 7 years of experience as project manager in the multimedia industry at <a href="http://redeglobo.globo.com/Portal/institucional/foldereletronico/ingles/g_globo_mundo.html">Rede Globo</a>.<br/><br/>
+                  I've recently completed Le Wagon's full-stack programming bootcamp in Tokyo
+                  <a href="https://www.lewagon.com/tokyo">(Le Wagon)</a>.
+                  <br/><br/>
+                  I have experience in:
+
+                  <br>
+                  <br>
+                  <i class="icon-html5-alt"></i>
+                  <i class="icon-css3-alt"></i>
+                  <i class="icon-javascript-alt"></i>
+                  <i class="icon-ruby"></i>
+                </p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+    </div>
+  </div>
+</section>
+</main>
+<!-- end main -->
+
+<!-- contact and footer -->
+<footer>
+  <section id="contact" class="social">
+    <div class="row">
+      <div class="col-md-12">
+        <h2 class="title">Contact 📬</h2>
+
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-sm-12">
+        <div id="contact" class="contact-form">
+
+          <%= render 'contact_items/form', contact_item: @contact_item %>
+
+        </div>
+
+        <ul class="social-buttons">
+          <li>
+            <a href="mailto:ricpiras@gmail.com">
+              <i class="fa fa-envelope"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://github.com/Ricardo875">
+              <i class="fa fa-github"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/ricardopiras/">
+              <i class="fa fa-linkedin"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+  <div class="copyright">&copy; 2019</div>
+</footer>
+</div>
+
+<!-- Scroll to top button -->
+<div class="scroll-top page-scroll hidden-lg">
+  <a href="#top">
+    <i class="fa fa-chevron-up"></i>
+  </a>
+</div>
