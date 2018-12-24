@@ -61,14 +61,3 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
-
-gem 'middleman', '~> 4.2'
-gem 'middleman-autoprefixer', '~> 2.7'
-gem 'middleman-sprockets'
-gem 'middleman-deploy', git: 'https://github.com/lewagon/middleman-deploy.git'
-gem 'pry-byebug', require: true
-
-# Assets
-gem 'bootstrap-sass'
-gem 'font-awesome-sass'
-gem 'jquery-middleman'
