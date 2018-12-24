@@ -678,8 +678,25 @@ header {
 
 @media only screen and (min-width: 768px) {
 .achievement-circle {
+    font-size: 18px;
     width: 170px;
     height: 170px;
     margin: 0px auto 40px auto;
   }
+}
+
+.achievement-circle {
+    width: 120px;
+    height: 120px;
+    background-color: #f58026;
+    border-radius: 50%;
+    margin: 10px auto;
+    color: white;
+    -webkit-transition: all 1s ease;
+    transition: all 1s ease;
+    -moz-transition: all 1s;
+    -webkit-transition: all 1s;
+    -o-transition: all 1s;
+    position: relative;
+    overflow: hidden;
 }
