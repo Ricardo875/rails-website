@@ -99,6 +99,12 @@ header {
   transform: skew(0,-4.5deg);
 }
 
+
+img {
+    vertical-align: middle;
+    max-height: 350px;
+}
+
 // Box Shadow for sections
 .copyright,
 .intro,
@@ -697,8 +703,9 @@ header {
 }
 
 .photo-hobby{
-  padding: 5px;
-  width: 150px;
+  max-width:300px;
+  image-size: 100px 100px;
+  width: center;
 }
 
 .achievement-circle div {
