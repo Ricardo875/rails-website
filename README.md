@@ -4,7 +4,7 @@
 
 <h1 align="center">
 
-  <a href="https://ricardoprogramer.com" target="_blank"><img width="240" height="220" alt="Alexrapley.com" src="app/assets/images/rplogoresize-min.png"></a>
+  <a href="https://ricardoprogramer.com" target="_blank"><img width="240" height="220" alt="RicardoProgramer.com" src="app/assets/images/rplogoresize-min.png"></a>
 </h1>
 
 <p align="center"><b>Personal portfolio project for Coder Factory Academy Term 1.<br>
