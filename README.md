@@ -4,9 +4,8 @@
 
 <h1 align="center">
 
-<p align="center"><b>Personal portfolio project for Coder Factory Academy Term 1.<br>
-Built using HTML, CSS, jQuery and Ruby on Rails
-</b></p>
+<p align="center">Personal portfolio project.<br>
+Built using HTML, CSS, jQuery and Ruby on Rails</p>
 
 ---
 
