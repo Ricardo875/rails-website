@@ -1,10 +1,10 @@
 
 
-<h1 align="center">ricardoprogramer.com</h1>
+<h1 align="center">My Portfolio Website</h1>
 
 <h1 align="center">
 
-<p align="center">Personal portfolio project.<br>
+<p align="center">
 Built using HTML, CSS, jQuery and Ruby on Rails</p>
 
 ---
